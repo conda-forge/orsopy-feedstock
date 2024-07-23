@@ -1,5 +1,5 @@
 {% set name = "orsopy" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/orsopy-{{ version }}.tar.gz
-  sha256: 6b17dcd62c792940a79bcf4442d479af74bce78292bfe78d7d341af71ce6583a
+  sha256: 33364b18c04879035e16bcfe29e0cbcd9123570ca747ed1851ba943b124cf7ba
 
 build:
   noarch: python
