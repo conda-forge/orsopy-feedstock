@@ -21,6 +21,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - pyyaml >=5.4.1
+    - numpy >= 1.26.0
 
 test:
   imports:
